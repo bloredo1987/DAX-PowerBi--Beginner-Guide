@@ -2,7 +2,7 @@
 - This project is for a fellow colleague looking in better her understanding of PowerBi and the functinos it runs on.
 
 ## How It All Connects
-- In Power BI, everything starts with **Power Query**, which pulls in your data and cleans it up (removing columns, fixing data types, merging files) before loading it into your model. 
+- In Power BI, everything starts with ***Power Query***, which pulls in your data and cleans it up (removing columns, fixing data types, merging files) before loading it into your model. 
 
 - That data is organized as a **star schema**: one central "fact" table holds the transactions, like Sales, and surrounding "lookup" tables describe things like Product, Customer, and Date, each linked to the fact table by a one-to-many relationship. 
 
@@ -12,8 +12,8 @@
 
 ![alt text](image-1.png)
 
-## How it shows the data
-There are 11 tables ranging from Sales (accounting data), Date (datetime), Customer (unique IDs), and so on.
+## How PowerBi/DAX connects - Tables/Primary Keys/Foreign Keys
+- In this visual below, we have 11 tables ranging from Sales (accounting data), Date (datetime), Customer (unique IDs), and so on. All showing how they connect with one another and at what point (Primary/Foreign Keys).
 
 ![alt text](image.png)
 
