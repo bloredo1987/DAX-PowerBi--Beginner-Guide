@@ -1,5 +1,5 @@
 # DAX - PowerBi -- Beginner Guide
-This project is for a fellow colleague looking in better her understanding of PowerBi and the functinos it runs on.
+- This project is for a fellow colleague looking in better her understanding of PowerBi and the functinos it runs on.
 
 ## How It All Connects
 - In Power BI, everything starts with **Power Query**, which pulls in your data and cleans it up (removing columns, fixing data types, merging files) before loading it into your model. 
